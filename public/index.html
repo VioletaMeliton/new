@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>New Scraping  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+       
+    <div id="wrapper">
+      <h1>New Scraper</h1>
+      <form action="/scrape" method="Get">
+        <li class="active">
+            <button id="scrape" type="submit" class="btn btn-primary">SCRAPE</button>
+            <p>
+                Click on news article to add notes!!
+            </p>
+        </li>
+    </form>
+    
+
+      <div id="articles"></div>
+
+      <div id="notes"> </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
